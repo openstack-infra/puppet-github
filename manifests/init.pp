@@ -6,8 +6,8 @@ class github(
   $project_username,
   $project_password,
 ) {
-  include jeepyb
-  include pip
+  include ::jeepyb
+  include ::pip
 
   if ! defined(Package['PyGithub']) {
     package { 'PyGithub':
