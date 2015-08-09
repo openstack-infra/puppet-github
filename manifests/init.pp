@@ -1,11 +1,10 @@
 # == Class: github
 #
 class github(
-  $username = '',
-  $oauth_token = '',
-  $project_username = '',
-  $project_password = '',
-  $projects = []
+  $username,
+  $oauth_token,
+  $project_username,
+  $project_password,
 ) {
   include jeepyb
   include pip
