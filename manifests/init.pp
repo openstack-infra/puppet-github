@@ -12,7 +12,7 @@ class github(
   if ! defined(Package['PyGithub']) {
     package { 'PyGithub':
       ensure   => latest,  # okay to use latest for pip
-      provider => pip,
+      provider => openstack_pip,
       require  => Class['pip'],
     }
   }
