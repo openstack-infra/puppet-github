@@ -1,3 +1,3 @@
-# OpenStack Github Module
+# This repo has moved to OpenDev
 
-This module sets up git repository mirroring to github.
+It can now be found at [https://opendev.org/opendev/puppet-github](https://opendev.org/opendev/puppet-github)
